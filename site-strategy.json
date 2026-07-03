@@ -1,0 +1,78 @@
+{
+    "hero_badge": "Agilidade para a rotina",
+    "hero_line": "Atendimento automotivo em Curitiba, com contato direto e informações claras antes do orçamento.",
+    "services_headline": "Menos carro parado. Mais rotina andando.",
+    "services_intro": "A página da Tec Auto Center mostra serviços, localização e WhatsApp em uma jornada simples, pensada para conversão mobile.",
+    "split_headline": "A conversa começa com o essencial.",
+    "confidence_headline": "Tec Auto Center: nota 5,0 no Google, endereço claro e contato direto.",
+    "location_headline": "Rota para a Tec Auto Center em Curitiba.",
+    "steps_headline": "Veja, chame e agende.",
+    "faq_headline": "Dúvidas antes de chamar no WhatsApp.",
+    "service_cards": [
+        {
+            "title": "Agilidade",
+            "body": "Fluxo direto para quem precisa voltar à rotina com o carro.",
+            "icon": "ph-gauge"
+        },
+        {
+            "title": "Manutenção essencial",
+            "body": "Freios, pneus e suspensão tratados como prioridade de segurança.",
+            "icon": "ph-steering-wheel"
+        },
+        {
+            "title": "Contato rápido",
+            "body": "WhatsApp em destaque para confirmar horário e disponibilidade.",
+            "icon": "ph-whatsapp-logo"
+        }
+    ],
+    "benefits": [
+        {
+            "title": "Primeira orientação rápida",
+            "body": "A Tec Auto Center recebe o caso pelo WhatsApp e indica o melhor próximo passo.",
+            "icon": "ph-check-circle"
+        },
+        {
+            "title": "Atendimento para carros populares e multimarcas",
+            "body": "Marcas como Fiat, Volkswagen, Chevrolet, Ford, Renault aparecem com clareza na página.",
+            "icon": "ph-car"
+        },
+        {
+            "title": "Localização evidente",
+            "body": "Mapa, rota e bairro ajudam quem está perto de Curitiba a decidir.",
+            "icon": "ph-map-pin"
+        }
+    ],
+    "faq": [
+        {
+            "question": "Como peço um orçamento?",
+            "answer": "Chame a Tec Auto Center pelo WhatsApp, envie modelo, ano e descreva o problema."
+        },
+        {
+            "question": "Quais carros atende?",
+            "answer": "A página destaca Fiat, Volkswagen, Chevrolet, Ford, Renault. A oficina confirma seu modelo pelo WhatsApp."
+        },
+        {
+            "question": "Onde fica?",
+            "answer": "R. Chorão, 25 - Eucaliptos, Fazenda Rio Grande - PR, 83820-704"
+        },
+        {
+            "question": "Por que essa página ajuda?",
+            "answer": "Ela organiza serviços, localização, marcas e contato para facilitar decisão e leitura por buscadores/IAs."
+        }
+    ],
+    "image_direction": {
+        "hero_mobile": "Recorte mobile com oficina em dia claro e area limpa para texto de Tec Auto Center.",
+        "hero_desktop": "Hero desktop com pessoa/carro à direita e respiro à esquerda para copy.",
+        "service_1": "Diagnostico ou atendimento tecnico em oficina limpa e seca.",
+        "service_2": "Freios, pneus ou suspensao com foco em seguranca.",
+        "trust": "Atendimento humano e consultivo, pessoas diferentes do hero.",
+        "og_image": "Preview limpo para WhatsApp com oficina em dia claro."
+    },
+    "quality_checks": [
+        "Hero curto e sem texto sobre rosto ou carro principal.",
+        "CTA de WhatsApp visivel no mobile.",
+        "Servicos, bairro, marcas, mapa e FAQ claros para SEO/GEO."
+    ],
+    "created_by": "local-batch:reuse-images",
+    "created_at": "2026-07-03T12:47:10-03:00"
+}
