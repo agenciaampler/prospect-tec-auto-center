@@ -1,0 +1,188 @@
+{
+    "schema": "ampler.codex-image-manifest.v1",
+    "prospect_id": "tec-auto-center",
+    "company_name": "Tec Auto Center",
+    "created_at": "2026-07-03T12:49:43-03:00",
+    "site_variant": {
+        "id": "52-fleet-utility-local-signal",
+        "name": "Frotas, diesel e utilitarios / Local Curitiba/RMC",
+        "family": "Frotas, diesel e utilitarios",
+        "style": "Local Curitiba/RMC",
+        "hero_mode": "center",
+        "service_layout": "compact"
+    },
+    "image_count": 6,
+    "required_image_count": 6,
+    "icon_library": {
+        "name": "Phosphor Icons",
+        "package": "@phosphor-icons/web",
+        "version": "2.1.1",
+        "weight": "regular",
+        "cdn_css": "https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css",
+        "icons": {
+            "primary_cta": "ph-whatsapp-logo",
+            "secondary_cta": "ph-arrow-right",
+            "rating": "ph-star",
+            "service_diagnostic": "ph-gauge",
+            "service_brakes": "ph-steering-wheel",
+            "service_preventive": "ph-wrench",
+            "local": "ph-map-pin",
+            "faq": "ph-question",
+            "car": "ph-car",
+            "trust": "ph-check-circle"
+        }
+    },
+    "brand_logo_assets": {
+        "directory": "assets/brand-logos",
+        "expected": [
+            {
+                "brand": "Fiat",
+                "slug": "fiat",
+                "preferred_file": "assets/brand-logos/fiat.svg",
+                "accepted_files": [
+                    "assets/brand-logos/fiat.svg",
+                    "assets/brand-logos/fiat.png",
+                    "assets/brand-logos/fiat.webp"
+                ]
+            },
+            {
+                "brand": "Volkswagen",
+                "slug": "volkswagen",
+                "preferred_file": "assets/brand-logos/volkswagen.svg",
+                "accepted_files": [
+                    "assets/brand-logos/volkswagen.svg",
+                    "assets/brand-logos/volkswagen.png",
+                    "assets/brand-logos/volkswagen.webp"
+                ]
+            },
+            {
+                "brand": "Chevrolet",
+                "slug": "chevrolet",
+                "preferred_file": "assets/brand-logos/chevrolet.svg",
+                "accepted_files": [
+                    "assets/brand-logos/chevrolet.svg",
+                    "assets/brand-logos/chevrolet.png",
+                    "assets/brand-logos/chevrolet.webp"
+                ]
+            },
+            {
+                "brand": "Ford",
+                "slug": "ford",
+                "preferred_file": "assets/brand-logos/ford.svg",
+                "accepted_files": [
+                    "assets/brand-logos/ford.svg",
+                    "assets/brand-logos/ford.png",
+                    "assets/brand-logos/ford.webp"
+                ]
+            },
+            {
+                "brand": "Renault",
+                "slug": "renault",
+                "preferred_file": "assets/brand-logos/renault.svg",
+                "accepted_files": [
+                    "assets/brand-logos/renault.svg",
+                    "assets/brand-logos/renault.png",
+                    "assets/brand-logos/renault.webp"
+                ]
+            }
+        ],
+        "rules": [
+            "Use only official/licensed brand logo files supplied for the project or downloaded from allowed official brand/press assets.",
+            "Do not generate fake vehicle brand logos with AI.",
+            "Keep generated workshop photos logo-free; brand logos belong in the brands UI strip.",
+            "Preferred format is SVG. Accepted formats are SVG, PNG and WebP."
+        ]
+    },
+    "street_context": {
+        "address": "R. Chorão, 25 - Eucaliptos, Fazenda Rio Grande - PR, 83820-704",
+        "status": "",
+        "date": "",
+        "maps_street_view_url": "",
+        "maps_review_url": "",
+        "visual_notes": "",
+        "rules": [
+            "Use as environmental reference only.",
+            "Do not publish Google Street View screenshots as site assets.",
+            "Do not recreate exact people, plates, private details or storefront copy."
+        ]
+    },
+    "instructions": [
+        "Generate these images inside Codex using the image generation tool.",
+        "Do not use nighttime, rainy, wet-asphalt or roadside-emergency imagery unless explicitly approved for this lead.",
+        "Do not repeat the same generated character across multiple assets in the same site.",
+        "Generated photos should use brand-compatible vehicle silhouettes but must avoid fake logos, badges, emblems and readable model marks.",
+        "Official car brand logos are separate UI assets in assets/brand-logos and may be used only when supplied/licensed or sourced from an allowed official brand/press kit. Record the source in the lead notes.",
+        "Street View context may guide local atmosphere, street scale and surroundings, but do not copy Google Street View imagery or recreate exact people, license plates, storefront details or private information.",
+        "Do not put text, license plates or watermarks inside generated images.",
+        "Copy each generated image into the listed file path, converting to WebP when needed.",
+        "The website is not ready to publish until every required image exists."
+    ],
+    "assets": {
+        "hero-mobile": {
+            "file": "assets/images/hero-mobile.webp",
+            "width": 1536,
+            "height": 2048,
+            "aspect_ratio": "3:4",
+            "role": "Hero mobile principal",
+            "required": true,
+            "prompt": "Use case: ads-marketing\nAsset type: mobile landing page hero image for a Brazilian auto repair shop\nRequired output dimensions: 1536x2048, vertical 3:4\nPrimary request: create a premium vertical advertising photograph for a local auto repair shop in Curitiba, Brazil, serving popular vehicles\nVehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, brand-accurate silhouettes; logo-free, brand-compatible vehicle silhouettes matching served brands: Fiat, Volkswagen, Chevrolet, Ford, Renault. Official brand logos are handled as separate website UI assets, not inside this generated photo. Do not invent or show brand logos, badges, emblems or readable model marks\nPeople and art direction: Brazilian institutional advertising aesthetic, like a polished bank campaign: diverse Brazilian people, including Black, brown, Indigenous, Asian-Brazilian and white people as appropriate, warm trust, professional posture, natural expression, no repeated actor across assets, no generic stock-photo look\nRegional context: Curitiba, Brazil regional context: Linha Verde, Batel, Agua Verde, Portao, Boqueirao, Reboucas, Sao Jose dos Pinhais, Colombo, Araucaria and Pinhais; subtle urban details, araucaria trees, tiled sidewalks, industrial streets and realistic local workshop surroundings; Prospect address context: R. Chorão, 25 - Eucaliptos, Fazenda Rio Grande - PR, 83820-704; use plausible local street surroundings for this Curitiba/RMC address; optimistic daylight only, dry streets, no rain, no wet asphalt, no night scene, no gloomy weather\nScene/backdrop: clean, organized mechanical workshop near a Curitiba/RMC urban street, tires, tool cabinets, car lift, diagnostic equipment and realistic local workshop details\nSubject: fictional professional mechanic or service advisor, confident and trustworthy, looking at the camera; use a unique face, outfit and pose for this asset, not repeated in other site images\nStyle/medium: photorealistic editorial advertising photography\nComposition/framing: vertical 3:4 mobile-first hero crop, subject clear in the center-right, background cinematic, usable dark negative space for website headline overlay, keep faces/hands/vehicle details inside the central 82% safe area, no important detail on the outer crop edges\nLighting/mood: bright natural daylight, modern, competent and trustworthy; dry floor and dry street only\nColor palette: use the prospect brand palette subtly in wardrobe accents and workshop details: primary #0F4C81, secondary #D7261E, accent #F4C430\nText: no text\nConstraints: realistic Brazilian workshop, no fake business signage, no license plates, no watermark\nAvoid: night, rain, wet asphalt, overcast gloom, emergency roadside mood, fake-looking hands, distorted tools, unreadable labels, extra fingers, repeated character, generic stock-photo smile\nLead-specific Fable 5 art direction: Recorte mobile com oficina em dia claro e area limpa para texto de Tec Auto Center.",
+            "engine": "codex_image_gen",
+            "size": "1536x2048"
+        },
+        "hero-desktop": {
+            "file": "assets/images/hero-desktop.webp",
+            "width": 1920,
+            "height": 1080,
+            "aspect_ratio": "16:9",
+            "role": "Hero desktop principal",
+            "required": true,
+            "prompt": "Use case: ads-marketing\nAsset type: desktop landing page hero image for a Brazilian auto repair shop\nRequired output dimensions: 1920x1080, wide 16:9\nPrimary request: premium photorealistic advertising photo of a modern Brazilian auto repair workshop in Curitiba serving popular vehicles\nVehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, brand-accurate silhouettes; logo-free, brand-compatible vehicle silhouettes matching served brands: Fiat, Volkswagen, Chevrolet, Ford, Renault. Official brand logos are handled as separate website UI assets, not inside this generated photo. Do not invent or show brand logos, badges, emblems or readable model marks\nPeople and art direction: Brazilian institutional advertising aesthetic, like a polished bank campaign: diverse Brazilian people, including Black, brown, Indigenous, Asian-Brazilian and white people as appropriate, warm trust, professional posture, natural expression, no repeated actor across assets, no generic stock-photo look\nRegional context: Curitiba, Brazil regional context: Linha Verde, Batel, Agua Verde, Portao, Boqueirao, Reboucas, Sao Jose dos Pinhais, Colombo, Araucaria and Pinhais; subtle urban details, araucaria trees, tiled sidewalks, industrial streets and realistic local workshop surroundings; Prospect address context: R. Chorão, 25 - Eucaliptos, Fazenda Rio Grande - PR, 83820-704; use plausible local street surroundings for this Curitiba/RMC address; optimistic daylight only, dry streets, no rain, no wet asphalt, no night scene, no gloomy weather\nScene/backdrop: a matching vehicle lifted for inspection, organized tools, tires, diagnostic scanner, clean but realistic working environment, glimpse of a Curitiba/RMC street outside the workshop\nStyle/medium: cinematic commercial automotive photography with Brazilian bank-campaign polish\nComposition/framing: wide 16:9 hero crop, strong vehicle/service scene on the right, generous dark negative space on the left for headline and CTA, keep main subject and vehicle within the central 86% safe area\nLighting/mood: bright natural daylight through large workshop windows, shallow depth of field, high trust, technical competence; dry floor and dry street only\nColor palette: subtle brand accents: primary #0F4C81, secondary #D7261E, accent #F4C430\nText: no text\nConstraints: no readable text, no license plates, no watermark, no fake business signage\nAvoid: night, rain, wet asphalt, overcast gloom, emergency roadside mood, distorted car details, fake tools, repeated character, generic stock-photo look\nLead-specific Fable 5 art direction: Hero desktop com pessoa/carro à direita e respiro à esquerda para copy.",
+            "engine": "codex_image_gen",
+            "size": "1920x1080"
+        },
+        "service-1": {
+            "file": "assets/images/service-1.webp",
+            "width": 1024,
+            "height": 768,
+            "aspect_ratio": "4:3",
+            "role": "Card de diagnóstico",
+            "required": true,
+            "prompt": "Use case: ads-marketing\nAsset type: service card image for a mobile-first Brazilian auto repair landing page\nRequired output dimensions: 1024x768, 4:3\nPrimary request: photorealistic premium advertising photo of an automotive diagnostic service for popular vehicles\nVehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, brand-accurate silhouettes; logo-free, brand-compatible vehicle details matching Fiat, Volkswagen, Chevrolet, Ford, Renault; official brand logos are separate website UI assets, not part of this generated image. Avoid logos, badges and readable model marks\nPeople and art direction: Brazilian institutional advertising aesthetic, like a polished bank campaign: diverse Brazilian people, including Black, brown, Indigenous, Asian-Brazilian and white people as appropriate, warm trust, professional posture, natural expression, no repeated actor across assets, no generic stock-photo look\nScene/backdrop: organized workshop bench, diagnostic scanner, open car hood, technician hands using equipment, subtle Curitiba/RMC workshop surroundings\nStyle/medium: realistic commercial photography with shallow depth of field\nComposition/framing: 4:3 service card crop, clear focal point centered, no text overlays, avoid placing tools or hands on crop edges\nLighting/mood: bright daylight, confident, technical, clean, high-trust; dry workshop floor only\nColor palette: subtle brand accents: primary #0F4C81, secondary #D7261E, accent #F4C430\nConstraints: no readable text, no license plates, no watermark\nAvoid: night, rain, wet asphalt, gloomy weather, visible repeated face from hero images, distorted hands, messy workshop, generic stock photo\nLead-specific Fable 5 art direction: Diagnostico ou atendimento tecnico em oficina limpa e seca.",
+            "engine": "codex_image_gen",
+            "size": "1024x768"
+        },
+        "service-2": {
+            "file": "assets/images/service-2.webp",
+            "width": 1024,
+            "height": 768,
+            "aspect_ratio": "4:3",
+            "role": "Card de pneus/freios/suspensão",
+            "required": true,
+            "prompt": "Use case: ads-marketing\nAsset type: service card image for a mobile-first Brazilian auto repair landing page\nRequired output dimensions: 1024x768, 4:3\nPrimary request: photorealistic premium advertising photo of brake, tire or suspension service for popular vehicles\nVehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, brand-accurate silhouettes; logo-free, brand-compatible wheel/body details matching Fiat, Volkswagen, Chevrolet, Ford, Renault; official brand logos are separate website UI assets, not part of this generated image. Avoid logos, badges and readable model marks\nPeople and art direction: Brazilian institutional advertising aesthetic, like a polished bank campaign: diverse Brazilian people, including Black, brown, Indigenous, Asian-Brazilian and white people as appropriate, warm trust, professional posture, natural expression, no repeated actor across assets, no generic stock-photo look\nScene/backdrop: close-up of wheel, brake disc, tire tread and mechanic tools in a clean Curitiba/RMC auto center\nStyle/medium: high-end automotive service photography with Brazilian institutional advertising polish\nComposition/framing: 4:3 crop, strong mechanical detail, dynamic angle, no text overlays, keep wheel/brake detail inside the central safe area\nLighting/mood: bright daylight, precise, safe, professional; dry workshop floor only\nColor palette: subtle brand accents: primary #0F4C81, secondary #D7261E, accent #F4C430\nConstraints: no readable text, no license plates, no watermark\nAvoid: night, rain, wet asphalt, gloomy weather, fake-looking metal, warped wheels, distorted tools, repeated character\nLead-specific Fable 5 art direction: Freios, pneus ou suspensao com foco em seguranca.",
+            "engine": "codex_image_gen",
+            "size": "1024x768"
+        },
+        "trust": {
+            "file": "assets/images/trust.webp",
+            "width": 1024,
+            "height": 768,
+            "aspect_ratio": "4:3",
+            "role": "Imagem de confiança/atendimento",
+            "required": true,
+            "prompt": "Use case: ads-marketing\nAsset type: trust image for a Brazilian auto repair landing page\nRequired output dimensions: 1024x768, 4:3\nPrimary request: photorealistic premium advertising photo showing trustworthy workshop service in Curitiba/RMC\nVehicle mix: popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, brand-accurate silhouettes; logo-free, brand-compatible vehicle context matching Fiat, Volkswagen, Chevrolet, Ford, Renault; official brand logos are separate website UI assets, not part of this generated image. Avoid logos, badges and readable model marks\nPeople and art direction: Brazilian institutional advertising aesthetic, like a polished bank campaign: diverse Brazilian people, including Black, brown, Indigenous, Asian-Brazilian and white people as appropriate, warm trust, professional posture, natural expression, no repeated actor across assets, no generic stock-photo look\nScene/backdrop: a different fictional service advisor or mechanic explaining car maintenance with a clipboard/tablet beside a matching vehicle, clean workshop with regional urban details\nStyle/medium: realistic editorial commercial photography\nComposition/framing: 4:3 crop, warm human moment, clear automotive context, no text overlays, faces and hands inside central safe area\nLighting/mood: bright daylight, approachable, competent, honest, professional; dry workshop floor only\nColor palette: subtle brand accents: primary #0F4C81, secondary #D7261E, accent #F4C430\nConstraints: fictional people, no real business identity, no readable text, no license plates, no watermark\nAvoid: night, rain, wet asphalt, gloomy weather, repeated hero character, exaggerated smiles, fake hands, messy workshop, generic stock image\nLead-specific Fable 5 art direction: Atendimento humano e consultivo, pessoas diferentes do hero.",
+            "engine": "codex_image_gen",
+            "size": "1024x768"
+        },
+        "og-image": {
+            "file": "assets/images/og-image.webp",
+            "width": 1200,
+            "height": 630,
+            "aspect_ratio": "1.91:1",
+            "role": "Preview social/WhatsApp",
+            "required": true,
+            "prompt": "Create a premium advertising image for a local Brazilian auto repair shop website preview in Curitiba/RMC. Required output dimensions: 1200x630, social preview ratio 1.91:1. Show a clean mechanical workshop with popular Brazilian compact hatchbacks, sedans and small SUVs used daily in Curitiba, brand-accurate silhouettes being inspected, tires and tools in the background, warm daylight, high trust, modern service quality. People and art direction: Brazilian institutional advertising aesthetic, like a polished bank campaign: diverse Brazilian people, including Black, brown, Indigenous, Asian-Brazilian and white people as appropriate, warm trust, professional posture, natural expression, no repeated actor across assets, no generic stock-photo look. Use logo-free, brand-compatible vehicle silhouettes matching Fiat, Volkswagen, Chevrolet, Ford, Renault; official brand logos are separate website UI assets, not part of this generated image. Regional context: Curitiba, Brazil regional context: Linha Verde, Batel, Agua Verde, Portao, Boqueirao, Reboucas, Sao Jose dos Pinhais, Colombo, Araucaria and Pinhais; subtle urban details, araucaria trees, tiled sidewalks, industrial streets and realistic local workshop surroundings; Prospect address context: R. Chorão, 25 - Eucaliptos, Fazenda Rio Grande - PR, 83820-704; use plausible local street surroundings for this Curitiba/RMC address; optimistic daylight only, dry streets, no rain, no wet asphalt, no night scene, no gloomy weather. Composition must work as a WhatsApp link preview thumbnail with the subject centered and no important detail near the edges. Use subtle brand accents: #0F4C81, #D7261E, #F4C430. No text, no watermark, no license plates, no visible vehicle logos, no badges. Avoid night, rain, wet asphalt, gloomy weather and repeated characters.\nLead-specific Fable 5 art direction: Preview limpo para WhatsApp com oficina em dia claro.",
+            "engine": "codex_image_gen",
+            "size": "1200x630"
+        }
+    }
+}
