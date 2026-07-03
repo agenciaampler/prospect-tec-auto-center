@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Tec Auto Center | Oficina em Curitiba</title>
+  <meta name="description" content="Tec Auto Center: atendimento automotivo em Curitiba e RMC para carros populares e multimarcas. Fale pelo WhatsApp e solicite uma avaliação.">
+  <meta property="og:title" content="Tec Auto Center | Oficina em Curitiba">
+  <meta property="og:description" content="Atendimento automotivo claro, rápido e com contato direto pelo WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/og-image.webp">
+  <link rel="mcp-actions" href="mcp-actions.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;850;900&family=Space+Mono:wght@400;700&family=Syncopate:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "Tec Auto Center",
+    "address": "R. Chorão, 25 - Eucaliptos, Fazenda Rio Grande - PR, 83820-704",
+    "areaServed": [
+        "Curitiba",
+        "Curitiba e regiao metropolitana"
+    ],
+    "telephone": "554137972314",
+    "url": "",
+    "knowsAbout": [
+        "oficina mecânica",
+        "diagnóstico automotivo",
+        "revisão preventiva",
+        "freios",
+        "suspensão",
+        "Fiat",
+        "Volkswagen",
+        "Chevrolet",
+        "Ford",
+        "Renault"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 40
+    }
+}</script>
+  <style>
+    :root {
+      --primary: #0F4C81;
+      --secondary: #D7261E;
+      --accent: #F4C430;
+      --ink: #0d1117;
+      --navy: #111827;
+      --muted: #5d6675;
+      --soft: #eef2f7;
+      --line: #d9dee7;
+      --paper: #f7f8fb;
+      --white: #fff;
+      --cta: #10863f;
+      --cta-hover: #0d7336;
+      --radius: 8px;
+      --shadow: 0 24px 70px rgba(13,17,23,.16);
+      --ease: cubic-bezier(.2,.8,.2,1);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: var(--ink); background: var(--paper); overflow-x: hidden; -webkit-font-smoothing: antialiased; }
+    main { display: flex; flex-direction: column; }
+    a { color: inherit; text-decoration: none; }
+    a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; border-radius: var(--radius); }
+    img { max-width: 100%; display: block; }
+    .wrap { width: min(1120px, calc(100% - 36px)); margin: 0 auto; }
+    .ph { font-size: 1.18em; line-height: 1; }
+    .hero { min-height: 92svh; color: #fff; background: linear-gradient(90deg, rgba(7,11,19,.92) 0%, rgba(7,11,19,.72) 44%, rgba(7,11,19,.18) 100%), url('assets/images/hero-mobile.webp'), linear-gradient(135deg, var(--primary), var(--navy)); background-size: cover; background-position: center right; position: relative; overflow: hidden; }
+    .hero::after { content: ""; position: absolute; inset: auto 0 0; height: 38%; background: linear-gradient(0deg, rgba(7,11,19,.82), transparent); pointer-events: none; }
+    .hero-media { display: none; }
+    .hero-media img { width: 100%; height: auto; }
+    .nav { position: absolute; z-index: 3; inset: 18px 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 18px; width: min(1120px, calc(100% - 36px)); margin: 0 auto; padding: 12px 14px; border: 1px solid rgba(255,255,255,.18); border-radius: 999px; background: rgba(7,11,19,.46); backdrop-filter: blur(18px); }
+    .brand { display: inline-flex; align-items: center; gap: 10px; min-width: 0; font-weight: 900; }
+    .brand span:last-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .brand-mark { display: grid; place-items: center; flex: 0 0 auto; width: 40px; height: 40px; border-radius: var(--radius); color: #fff; background: var(--secondary); box-shadow: 0 12px 24px rgba(0,0,0,.22); }
+    .nav-links { display: flex; gap: 18px; align-items: center; color: rgba(255,255,255,.78); font-size: 13px; font-weight: 800; }
+    .nav-links a { transition: color .18s ease; }
+    .nav-links a:hover { color: #fff; }
+    .nav-cta, .button { max-width: 100%; min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 9px; border-radius: 999px; padding: 0 20px; font-weight: 900; line-height: 1.15; text-align: center; cursor: pointer; touch-action: manipulation; transition: transform .22s var(--ease), box-shadow .22s var(--ease), background .22s var(--ease), border-color .22s var(--ease); }
+    .nav-cta { color: var(--ink); background: #fff; }
+    .button.primary { color: #fff; background: var(--cta); text-shadow: 0 1px 2px rgba(0,0,0,.24); box-shadow: 0 18px 40px rgba(16,134,63,.30), inset 0 1px 0 rgba(255,255,255,.18); }
+    .button.primary:hover { background: var(--cta-hover); }
+    .button.secondary { color: #fff; border: 1px solid rgba(255,255,255,.38); background: rgba(7,11,19,.34); backdrop-filter: blur(14px); box-shadow: inset 0 1px 0 rgba(255,255,255,.10); }
+    .button.dark { color: #fff; background: var(--ink); }
+    .button:hover, .nav-cta:hover, .floating-wa:hover { transform: translateY(-2px); }
+    .button:active, .nav-cta:active, .floating-wa:active { transform: translateY(0) scale(.98); }
+    .hero-content { position: relative; z-index: 2; display: grid; align-content: end; min-height: 92svh; padding: 132px 0 34px; }
+    .hero-copy { width: min(540px, 100%); }
+    .eyebrow { margin: 0 0 13px; color: var(--accent); font-family: "Space Mono", ui-monospace, monospace; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    h1 { margin: 0; max-width: 560px; font-family: Inter, sans-serif; font-size: clamp(38px, 4.6vw, 64px); line-height: 1; letter-spacing: 0; font-weight: 950; text-wrap: balance; overflow-wrap: anywhere; }
+    .hero-line { max-width: 480px; margin: 18px 0 0; color: rgba(255,255,255,.86); font-size: clamp(17px, 1.6vw, 20px); line-height: 1.38; font-weight: 700; }
+    .lead { max-width: 690px; color: rgba(255,255,255,.84); font-size: clamp(17px, 2vw, 22px); line-height: 1.5; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; max-width: 540px; margin-top: 28px; }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+    .hero-meta span { display: inline-flex; align-items: center; min-height: 34px; padding: 0 12px; border: 1px solid rgba(255,255,255,.18); border-radius: 999px; background: rgba(7,11,19,.32); color: rgba(255,255,255,.78); font-family: "Space Mono", ui-monospace, monospace; font-size: 12px; backdrop-filter: blur(12px); }
+    .hero-center .hero-copy, .hero-right .hero-copy { margin-inline: 0; text-align: left; }
+    .hero-center .actions, .hero-center .hero-meta, .hero-right .actions, .hero-right .hero-meta { justify-content: flex-start; }
+    section { padding: 82px 0; }
+    body.density-compact section { padding-block: 70px; }
+    body.density-dense section { padding-block: 64px; }
+    .trust-strip { padding: 0; background: #fff; border-bottom: 1px solid var(--line); }
+    .trust-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line); border-inline: 1px solid var(--line); }
+    .trust-item { padding: 22px 18px; background: #fff; }
+    .trust-item .ph { display: block; margin-bottom: 10px; color: var(--secondary); font-size: 25px; }
+    .trust-item strong { display: block; font-size: 22px; line-height: 1.1; }
+    .trust-item span { display: block; margin-top: 4px; color: var(--muted); font-size: 13px; line-height: 1.4; }
+    .brand-strip { padding: 28px 0; background: #fff; border-bottom: 1px solid var(--line); overflow: hidden; }
+    .brand-strip .wrap { display: grid; gap: 16px; }
+    .brand-rail { display: flex; gap: 12px; flex-wrap: wrap; }
+    .pill-row { display: flex; gap: 10px; flex-wrap: wrap; }
+    .brand-pill, .region-pill { display: inline-flex; align-items: center; gap: 9px; min-height: 40px; padding: 0 15px; border-radius: 999px; background: #f2f5f9; font-weight: 850; font-size: 13px; color: var(--ink); }
+    .brand-pill::before, .region-pill::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--secondary); }
+    .brand-pill.has-logo { min-height: 52px; padding: 7px 14px; border: 1px solid var(--line); background: #fff; box-shadow: 0 12px 30px rgba(13,17,23,.06); }
+    .brand-pill.has-logo::before { display: none; }
+    .brand-pill.has-logo img { width: 86px; max-width: 86px; height: 28px; object-fit: contain; }
+    .brand-pill.has-logo span { color: var(--muted); font-size: 12px; }
+    .section-head { display: grid; gap: 10px; max-width: 780px; margin-bottom: 34px; }
+    .section-head.center { margin-inline: auto; text-align: center; }
+    .section-head h2, .split-copy h2, .band h2, .steps h2, .contact h2, .location-card h2 { margin: 0; font-size: clamp(31px, 5vw, 58px); line-height: 1.02; letter-spacing: 0; text-wrap: balance; }
+    .section-head p, .service-card p, .split-copy p, .band p, .step p, .faq p, .contact p, .region-panel p, .location-card p { color: var(--muted); line-height: 1.68; }
+    .service-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .service-card { position: relative; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; box-shadow: 0 16px 44px rgba(13,17,23,.06); transition: transform .26s var(--ease), box-shadow .26s var(--ease), border-color .26s var(--ease); }
+    .service-card::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,.34) 48%, transparent 78%); opacity: 0; transform: translateX(-24%); transition: opacity .26s var(--ease), transform .46s var(--ease); }
+    .service-card:hover { transform: translateY(-5px); border-color: color-mix(in srgb, var(--secondary) 30%, var(--line)); box-shadow: var(--shadow); }
+    .service-card:hover::after { opacity: .55; transform: translateX(24%); }
+    .service-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: #dbe3ef; transition: transform .55s var(--ease), filter .55s var(--ease); }
+    .service-card:hover img { transform: scale(1.035); filter: saturate(1.04) contrast(1.02); }
+    .service-body { padding: 22px; }
+    .service-body h3 { display: flex; align-items: center; gap: 9px; margin: 0 0 9px; font-size: 23px; line-height: 1.15; }
+    .service-body h3 .ph { color: var(--secondary); font-size: 28px; }
+    .service-featured .service-grid { grid-template-columns: 1.18fr .91fr .91fr; }
+    .service-featured .service-card:first-child { grid-row: span 2; }
+    .service-featured .service-card:first-child img { height: 100%; aspect-ratio: auto; }
+    .service-split .service-grid { grid-template-columns: repeat(2, 1fr); }
+    .service-split .service-card:first-child { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; }
+    .service-minimal .service-card { box-shadow: none; }
+    .service-minimal .service-card:hover { box-shadow: 0 12px 34px rgba(13,17,23,.10); }
+    .service-compact .service-card img { aspect-ratio: 16 / 10; }
+    .split { display: grid; grid-template-columns: .9fr 1.1fr; gap: 42px; align-items: center; }
+    .split-media { position: relative; overflow: hidden; min-height: 460px; border-radius: var(--radius); box-shadow: var(--shadow); background: var(--ink); }
+    .split-media img { width: 100%; height: 100%; min-height: 460px; object-fit: cover; }
+    .split-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 42%, rgba(7,11,19,.72)); pointer-events: none; }
+    .media-caption { position: absolute; left: 20px; right: 20px; bottom: 20px; z-index: 1; display: grid; gap: 8px; color: #fff; }
+    .media-caption strong { font-size: clamp(22px, 3vw, 34px); line-height: 1.05; }
+    .benefit-list { display: grid; gap: 12px; margin-top: 24px; }
+    .benefit { display: grid; grid-template-columns: 44px 1fr; gap: 12px; align-items: start; padding: 14px; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; transition: transform .22s var(--ease), border-color .22s var(--ease), box-shadow .22s var(--ease); }
+    .benefit:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--secondary) 24%, var(--line)); box-shadow: 0 12px 34px rgba(13,17,23,.08); }
+    .benefit .ph { display: grid; place-items: center; width: 44px; height: 44px; border-radius: var(--radius); color: #fff; background: var(--primary); font-size: 22px; }
+    .benefit strong { display: block; margin-bottom: 3px; }
+    .benefit span { color: var(--muted); font-size: 14px; line-height: 1.5; }
+    .band { color: #fff; background: linear-gradient(135deg, #0d1117, color-mix(in srgb, var(--primary) 34%, #0d1117)); }
+    .band-grid { display: grid; grid-template-columns: .86fr 1.14fr; gap: 38px; align-items: center; }
+    .band p { color: rgba(255,255,255,.76); }
+    .signal-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .signal { padding: 20px; border-radius: var(--radius); background: rgba(255,255,255,.08); box-shadow: inset 0 0 0 1px rgba(255,255,255,.12); }
+    .signal .ph { color: var(--accent); font-size: 25px; }
+    .signal strong { display: block; margin: 9px 0 5px; }
+    .signal span { color: rgba(255,255,255,.72); font-size: 14px; line-height: 1.5; }
+    .region { background: #fff; }
+    .region-grid { display: grid; grid-template-columns: .95fr 1.05fr; gap: 30px; align-items: stretch; }
+    .region-panel { padding: 30px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); transition: transform .24s var(--ease), box-shadow .24s var(--ease), border-color .24s var(--ease); }
+    .region-panel:hover { transform: translateY(-3px); border-color: color-mix(in srgb, var(--primary) 20%, var(--line)); box-shadow: 0 18px 50px rgba(13,17,23,.08); }
+    .region-panel.dark { color: #fff; background: var(--ink); border-color: var(--ink); }
+    .region-panel.dark p { color: rgba(255,255,255,.76); }
+    .location { background: #fff; }
+    .location-grid { display: grid; grid-template-columns: .82fr 1.18fr; gap: 22px; align-items: stretch; }
+    .location-card { min-height: 390px; display: flex; flex-direction: column; justify-content: space-between; gap: 24px; padding: 30px; border-radius: var(--radius); color: #fff; background: var(--ink); }
+    .location-card p { color: rgba(255,255,255,.76); }
+    .address-box { display: grid; gap: 8px; padding: 18px; border: 1px solid rgba(255,255,255,.14); border-radius: var(--radius); background: rgba(255,255,255,.08); }
+    .address-box span { color: rgba(255,255,255,.58); font-family: "Space Mono", ui-monospace, monospace; font-size: 12px; font-weight: 700; text-transform: uppercase; }
+    .address-box strong { font-size: 18px; line-height: 1.35; }
+    .map-frame { min-height: 390px; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: var(--soft); box-shadow: var(--shadow); }
+    .map-frame iframe { display: block; width: 100%; height: 100%; min-height: 390px; border: 0; filter: saturate(.9) contrast(1.04); }
+    .style-editorial-premium .service-card, .style-editorial-premium .region-panel, .style-editorial-premium details { background: #fff; box-shadow: 0 18px 50px rgba(13,17,23,.08); }
+    .style-local-signal .location-card, .style-local-signal .region-panel.dark { background: linear-gradient(135deg, var(--primary), #0d1117); }
+    .style-clean-conversion .service-card, .style-clean-conversion .step, .style-clean-conversion details { box-shadow: none; }
+    .style-industrial-bold { --radius: 4px; }
+    .style-industrial-bold .hero { background-position: center right; }
+    .style-industrial-bold .trust-item strong, .style-industrial-bold .step-number { font-family: "Space Mono", ui-monospace, monospace; }
+    .style-technical-dark .band, .style-technical-dark .footer { background: #070b13; }
+    .style-concierge-light { --paper: #f5f6f2; --soft: #ebeDE8; --line: #d9ddd5; --radius: 6px; }
+    .style-concierge-light .hero { color: var(--ink); background-image: linear-gradient(90deg, #f7f8f3 0%, #f7f8f3 43%, rgba(247,248,243,.76) 58%, rgba(247,248,243,.04) 100%), url('assets/images/hero-mobile.webp'), linear-gradient(135deg, #f7f8f3, #dde4ea); }
+    .style-concierge-light .hero::after { height: 28%; background: linear-gradient(0deg, rgba(247,248,243,.94), transparent); }
+    .style-concierge-light .nav { color: var(--ink); background: rgba(255,255,255,.78); border-color: rgba(13,17,23,.12); box-shadow: 0 18px 54px rgba(13,17,23,.12); }
+    .style-concierge-light .nav-links { color: rgba(13,17,23,.64); }
+    .style-concierge-light .nav-links a:hover { color: var(--ink); }
+    .style-concierge-light .nav-cta { color: #fff; background: var(--ink); }
+    .style-concierge-light h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(42px, 6.2vw, 88px); line-height: 1; font-weight: 700; }
+    .style-concierge-light .hero-line { color: rgba(13,17,23,.72); font-weight: 650; }
+    .style-concierge-light .button.secondary { color: var(--ink); border-color: rgba(13,17,23,.18); background: rgba(255,255,255,.72); }
+    .style-concierge-light .hero-meta span { color: rgba(13,17,23,.72); border-color: rgba(13,17,23,.12); background: rgba(255,255,255,.78); }
+    .style-concierge-light .trust-strip, .style-concierge-light .brand-strip, .style-concierge-light .faq, .style-concierge-light .location { background: #f7f8f3; }
+    .style-concierge-light .band { color: var(--ink); background: #fff; border-block: 1px solid var(--line); }
+    .style-concierge-light .band p, .style-concierge-light .signal span { color: var(--muted); }
+    .style-concierge-light .signal { background: #f4f6f1; box-shadow: inset 0 0 0 1px var(--line); }
+    .style-concierge-light .signal strong { color: var(--ink); }
+    .style-motorsport-grid { --radius: 3px; --paper: #090c10; --soft: #111821; --line: #27313e; --muted: #aab4c2; }
+    .style-motorsport-grid .hero { background-position: center right; }
+    .style-motorsport-grid h1 { font-family: Syncopate, Inter, sans-serif; font-size: clamp(30px, 5.2vw, 76px); line-height: 1; text-transform: uppercase; }
+    .style-motorsport-grid section, .style-motorsport-grid .region, .style-motorsport-grid .faq, .style-motorsport-grid .location { background: #090c10; color: #f8fafc; }
+    .style-motorsport-grid .trust-strip, .style-motorsport-grid .brand-strip { background: #0f141b; border-color: var(--line); }
+    .style-motorsport-grid .trust-grid { background: var(--line); border-color: var(--line); }
+    .style-motorsport-grid .trust-item, .style-motorsport-grid .service-card, .style-motorsport-grid .step, .style-motorsport-grid details, .style-motorsport-grid .region-panel { color: #f8fafc; background: #111821; border-color: var(--line); box-shadow: none; }
+    .style-motorsport-grid .section-head p, .style-motorsport-grid .service-card p, .style-motorsport-grid .split-copy p, .style-motorsport-grid .step p, .style-motorsport-grid .faq p, .style-motorsport-grid .region-panel p { color: var(--muted); }
+    .style-motorsport-grid .brand-pill, .style-motorsport-grid .region-pill { color: #f8fafc; background: #151d28; border: 1px solid var(--line); }
+    .style-motorsport-grid .brand-pill.has-logo { background: #f8fafc; color: #0d1117; }
+    .style-motorsport-grid .split-media, .style-motorsport-grid .location-card, .style-motorsport-grid .band, .style-motorsport-grid .contact, .style-motorsport-grid .footer { background: #05070a; }
+    .style-motorsport-grid .service-card img { filter: saturate(.96) contrast(1.08); }
+    .style-motorsport-grid .button.secondary { border-color: rgba(255,255,255,.28); background: rgba(255,255,255,.08); }
+    .steps { background: var(--soft); }
+    .step-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .step { position: relative; padding: 24px; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; transition: transform .24s var(--ease), box-shadow .24s var(--ease), border-color .24s var(--ease); }
+    .step:hover { transform: translateY(-3px); border-color: color-mix(in srgb, var(--secondary) 24%, var(--line)); box-shadow: 0 16px 42px rgba(13,17,23,.08); }
+    .step-number { display: grid; place-items: center; width: 42px; height: 42px; margin-bottom: 28px; border-radius: 50%; color: #fff; background: var(--secondary); font-weight: 950; }
+    .step h3 { margin: 0 0 8px; font-size: 22px; }
+    .faq { background: #fff; }
+    .faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    details { border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); overflow: hidden; }
+    summary { display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 62px; padding: 0 18px; cursor: pointer; font-weight: 900; list-style: none; }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: "+"; display: grid; place-items: center; flex: 0 0 auto; width: 28px; height: 28px; border-radius: 50%; color: #fff; background: var(--primary); transition: transform .2s var(--ease); }
+    details[open] summary::after { transform: rotate(45deg); }
+    details p { margin: 0; padding: 0 18px 18px; }
+    .contact { text-align: center; color: #fff; background: linear-gradient(135deg, var(--primary), #0d1117); }
+    .contact .lead { margin: 18px auto 0; color: rgba(255,255,255,.80); }
+    .map-link { display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; color: rgba(255,255,255,.82); font-weight: 850; text-decoration: underline; text-underline-offset: 4px; }
+    .floating-wa { position: fixed; right: 16px; bottom: 16px; z-index: 10; min-height: 56px; padding: 0 20px; border-radius: 999px; color: #fff; background: #0f7a34; box-shadow: 0 18px 44px rgba(15,122,52,.34); font-weight: 950; display: inline-flex; align-items: center; gap: 9px; cursor: pointer; touch-action: manipulation; transition: transform .22s var(--ease), box-shadow .22s var(--ease); }
+    .footer { padding: 66px 0 96px; color: rgba(255,255,255,.78); background: #070b13; }
+    .footer-grid { display: grid; grid-template-columns: minmax(260px, 1.4fr) repeat(3, minmax(0, .8fr)); gap: 34px; align-items: start; }
+    .footer-brand { display: inline-flex; align-items: center; gap: 12px; color: #fff; font-weight: 950; }
+    .footer-brand .brand-mark { width: 42px; height: 42px; }
+    .footer p { margin: 14px 0 0; color: rgba(255,255,255,.66); line-height: 1.6; }
+    .footer h4 { margin: 0 0 14px; color: #fff; font-family: "Space Mono", ui-monospace, monospace; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+    .footer-list { display: grid; gap: 9px; }
+    .footer-list a, .footer-list span { color: rgba(255,255,255,.66); font-size: 14px; line-height: 1.5; }
+    .footer-list a:hover { color: #fff; }
+    .footer .button { margin-top: 20px; min-height: 44px; color: #fff; background: var(--cta); }
+    .footer-bottom { display: flex; justify-content: space-between; gap: 18px; margin-top: 42px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.12); color: rgba(255,255,255,.50); font-size: 12px; }
+    .reveal { opacity: 0; transform: translateY(22px) scale(.985); transition: opacity .55s var(--ease), transform .55s var(--ease); }
+    .reveal.is-visible { opacity: 1; transform: translateY(0); }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+      .reveal { opacity: 1; transform: none; }
+    }
+    @media (min-width: 761px) {
+      .hero { background-image: linear-gradient(90deg, rgba(7,11,19,.92) 0%, rgba(7,11,19,.72) 44%, rgba(7,11,19,.18) 100%), url('assets/images/hero-desktop.webp'), linear-gradient(135deg, var(--primary), var(--navy)); background-position: center right; }
+      .style-concierge-light .hero { background-image: linear-gradient(90deg, #f7f8f3 0%, #f7f8f3 43%, rgba(247,248,243,.76) 58%, rgba(247,248,243,.04) 100%), url('assets/images/hero-desktop.webp'), linear-gradient(135deg, #f7f8f3, #dde4ea); }
+      .style-motorsport-grid .hero { background-image: linear-gradient(90deg, rgba(5,7,10,.94) 0%, rgba(5,7,10,.72) 45%, rgba(5,7,10,.18) 100%), url('assets/images/hero-desktop.webp'), linear-gradient(135deg, #05070a, #161d28); }
+      .floating-wa { display: none; }
+    }
+    @media (max-width: 760px) {
+      .wrap { width: min(100% - 32px, 1120px); }
+      body { padding-bottom: 76px; }
+      .hero { min-height: auto; background: var(--ink); }
+      .style-concierge-light .hero { color: var(--ink); background: #f7f8f3; }
+      .style-concierge-light .hero-media { background: #f7f8f3; }
+      .style-concierge-light .hero-line, .style-concierge-light .lead { color: rgba(13,17,23,.72); }
+      .style-motorsport-grid .hero { background: #05070a; }
+      .hero::after { display: none; }
+      .nav { position: absolute; width: min(100% - 32px, 1120px); border-radius: 16px; padding: 10px; }
+      .brand-mark { width: 36px; height: 36px; }
+      .nav-links, .nav-cta { display: none; }
+      .hero-media { display: block; position: relative; z-index: 1; padding-top: 84px; background: var(--ink); }
+      .hero-media img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: center top; border-bottom: 1px solid rgba(255,255,255,.10); }
+      .hero-content { min-height: auto; padding: 24px 0 34px; }
+      .hero-copy { width: 100%; }
+      .eyebrow { margin-bottom: 10px; }
+      h1 { font-size: clamp(29px, 8.2vw, 42px); line-height: 1.03; }
+      .hero-line, .lead { font-size: 16px; line-height: 1.45; }
+      .actions { display: grid; grid-template-columns: 1fr; gap: 10px; width: 100%; margin-top: 24px; }
+      .actions .button { width: 100%; min-height: 52px; padding-inline: 16px; }
+      .trust-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .service-grid, .split, .band-grid, .region-grid, .location-grid, .step-grid, .faq-grid, .footer-grid { grid-template-columns: 1fr; }
+      .hero-right .hero-copy, .hero-center .hero-copy { margin-inline: 0; text-align: left; }
+      .hero-right .hero-line { margin-left: 0; }
+      .hero-right .actions, .hero-right .hero-meta, .hero-center .actions, .hero-center .hero-meta { justify-content: flex-start; }
+      .hero-meta { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; }
+      .hero-meta span { flex: 0 0 auto; white-space: nowrap; }
+      .trust-item { padding: 16px 14px; }
+      .trust-item strong { font-size: 18px; }
+      .service-featured .service-card:first-child { grid-row: auto; }
+      .service-split .service-card:first-child { grid-column: auto; display: block; }
+      .service-card img, .service-featured .service-card:first-child img, .service-compact .service-card img { height: auto; aspect-ratio: 16 / 11; object-fit: cover; object-position: center; }
+      .footer-bottom { flex-direction: column; }
+      section { padding: 58px 0; }
+      .split-media, .split-media img { min-height: 360px; }
+      .map-frame, .map-frame iframe { min-height: 320px; }
+      .signal-grid { grid-template-columns: 1fr; }
+      .floating-wa { left: 14px; right: 14px; bottom: 12px; justify-content: center; }
+    }
+  </style>
+</head>
+<body class="site-variant variant-52-fleet-utility-local-signal family-fleet-utility style-local-signal hero-center service-compact density-compact cta-direct map-early" data-site-variant="52-fleet-utility-local-signal" data-site-variant-name="Frotas, diesel e utilitarios / Local Curitiba/RMC">
+  <header class="hero">
+    <nav class="nav">
+      <a class="brand" href="#"><span class="brand-mark">T</span><span>Tec Auto Center</span></a>
+      <div class="nav-links" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#confianca">Confiança</a>
+        <a href="#localizacao">Como chegar</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#faq">Dúvidas</a>
+      </div>
+      <a class="nav-cta" href="https://wa.me/554137972314?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Tec%20Auto%20Center%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noopener noreferrer" data-mcp-action="contact-whatsapp" data-mcp-description="Iniciar conversa por WhatsApp com a oficina"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i>WhatsApp</a>
+    </nav>
+    <picture class="hero-media" aria-hidden="true">
+      <img src="assets/images/hero-mobile.webp" width="1536" height="2048" alt="">
+    </picture>
+    <div class="wrap hero-content">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Agilidade para a rotina</p>
+        <h1>Tec Auto Center</h1>
+        <p class="hero-line">Atendimento automotivo em Curitiba, com contato direto e informações claras antes do orçamento.</p>
+        <div class="actions">
+          <a class="button primary" href="https://wa.me/554137972314?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Tec%20Auto%20Center%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noopener noreferrer" data-mcp-action="contact-whatsapp" data-mcp-description="Abrir WhatsApp com mensagem inicial para a oficina"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i>Agendar pelo WhatsApp</a>
+          <a class="button secondary" href="#servicos">Ver serviços<i class="ph ph-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="hero-meta" aria-label="Resumo da oficina">
+          <span>5,0/5</span>
+          <span>carros populares e multimarcas</span>
+          <span>Curitiba e RMC</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="trust-strip" aria-label="Resumo de confiança" style="order: 10">
+      <div class="wrap trust-grid">
+        <div class="trust-item"><i class="ph ph-star" aria-hidden="true"></i><strong>5,0/5</strong><span>40 avaliações</span></div>
+        <div class="trust-item"><i class="ph ph-map-pin" aria-hidden="true"></i><strong>Curitiba</strong><span>Atendimento local e RMC</span></div>
+        <div class="trust-item"><i class="ph ph-car" aria-hidden="true"></i><strong>Multimarcas</strong><span>carros populares e multimarcas</span></div>
+        <div class="trust-item"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i><strong>WhatsApp</strong><span>Agendamento direto</span></div>
+      </div>
+    </section>
+
+    <section class="brand-strip" style="order: 50">
+      <div class="wrap">
+        <p class="eyebrow">Marcas atendidas</p>
+        <div class="brand-rail"><span class="brand-pill">Fiat</span><span class="brand-pill">Volkswagen</span><span class="brand-pill">Chevrolet</span><span class="brand-pill">Ford</span><span class="brand-pill">Renault</span></div>
+      </div>
+    </section>
+
+    <section id="servicos" style="order: 30">
+      <div class="wrap">
+        <div class="section-head center reveal">
+          <p class="eyebrow">Serviços</p>
+          <h2>Menos carro parado. Mais rotina andando.</h2>
+          <p>A página da Tec Auto Center mostra serviços, localização e WhatsApp em uma jornada simples, pensada para conversão mobile.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card reveal"><img src="assets/images/service-1.webp" width="1024" height="768" alt="Diagnóstico automotivo" loading="lazy"><div class="service-body"><h3><i class="ph ph-gauge" aria-hidden="true"></i>Agilidade</h3><p>Fluxo direto para quem precisa voltar à rotina com o carro.</p></div></article><article class="service-card reveal"><img src="assets/images/service-2.webp" width="1024" height="768" alt="Freios, pneus e suspensão" loading="lazy"><div class="service-body"><h3><i class="ph ph-steering-wheel" aria-hidden="true"></i>Manutenção essencial</h3><p>Freios, pneus e suspensão tratados como prioridade de segurança.</p></div></article><article class="service-card reveal"><img src="assets/images/trust.webp" width="1024" height="768" alt="Atendimento consultivo de oficina" loading="lazy"><div class="service-body"><h3><i class="ph ph-whatsapp-logo" aria-hidden="true"></i>Contato rápido</h3><p>WhatsApp em destaque para confirmar horário e disponibilidade.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="split-section" style="order: 40">
+      <div class="wrap split">
+        <div class="split-copy reveal">
+          <p class="eyebrow">Atendimento</p>
+          <h2>A conversa começa com o essencial.</h2>
+          <p>Sem formulário longo: informe marca, modelo, ano e o que está acontecendo. A Tec Auto Center direciona o atendimento pelo WhatsApp.</p>
+          <div class="benefit-list">
+            <div class="benefit"><i class="ph ph-check-circle" aria-hidden="true"></i><div><strong>Primeira orientação rápida</strong><span>A Tec Auto Center recebe o caso pelo WhatsApp e indica o melhor próximo passo.</span></div></div><div class="benefit"><i class="ph ph-car" aria-hidden="true"></i><div><strong>Atendimento para carros populares e multimarcas</strong><span>Marcas como Fiat, Volkswagen, Chevrolet, Ford, Renault aparecem com clareza na página.</span></div></div><div class="benefit"><i class="ph ph-map-pin" aria-hidden="true"></i><div><strong>Localização evidente</strong><span>Mapa, rota e bairro ajudam quem está perto de Curitiba a decidir.</span></div></div>
+          </div>
+        </div>
+        <figure class="split-media reveal">
+          <img src="assets/images/trust.webp" width="1024" height="768" alt="Atendimento automotivo com orientação clara" loading="lazy">
+          <figcaption class="media-caption"><span class="eyebrow">Atendimento direto</span><strong>Do sintoma ao agendamento.</strong></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="band" id="confianca" style="order: 70">
+      <div class="wrap band-grid reveal">
+        <div>
+          <p class="eyebrow">Confiança local</p>
+          <h2>Tec Auto Center: nota 5,0 no Google, endereço claro e contato direto.</h2>
+          <p>Endereço, marcas atendidas, serviços e perguntas frequentes ficam organizados para o cliente decidir com mais segurança antes de chamar.</p>
+        </div>
+        <div class="signal-grid">
+          <div class="signal"><i class="ph ph-map-pin" aria-hidden="true"></i><strong>Localização clara</strong><span>R. Chorão, 25 - Eucaliptos, Fazenda Rio Grande - PR, 83820-704</span></div>
+          <div class="signal"><i class="ph ph-car" aria-hidden="true"></i><strong>Marcas atendidas</strong><span>Fiat, Volkswagen, Chevrolet, Ford, Renault</span></div>
+          <div class="signal"><i class="ph ph-question" aria-hidden="true"></i><strong>Dúvidas respondidas</strong><span>O básico antes de pedir orçamento.</span></div>
+          <div class="signal"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i><strong>Canal direto</strong><span>WhatsApp +55 (41) 3797-2314</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="region" style="order: 80">
+      <div class="wrap region-grid">
+        <article class="region-panel dark reveal">
+          <p class="eyebrow">Curitiba e RMC</p>
+          <h2>Atendimento para a rotina de quem dirige na cidade.</h2>
+          <p>Chuva, vias movimentadas, deslocamentos diários e manutenção preventiva fazem parte da vida de quem usa o carro em Curitiba e região metropolitana.</p>
+        </article>
+        <article class="region-panel reveal">
+          <p class="eyebrow">Região atendida</p>
+          <div class="pill-row"><span class="region-pill">Linha Verde</span><span class="region-pill">Batel</span><span class="region-pill">Água Verde</span><span class="region-pill">Portão</span><span class="region-pill">Boqueirão</span><span class="region-pill">São José dos Pinhais</span><span class="region-pill">Colombo</span><span class="region-pill">Araucária</span><span class="region-pill">Pinhais</span></div>
+          <p style="margin-top:18px;">Consulte pelo WhatsApp para confirmar disponibilidade de horário e atendimento para o seu bairro.</p>
+        </article>
+      </div>
+    </section>
+
+        <section class="location" id="localizacao" style="order: 60">
+      <div class="wrap location-grid">
+        <article class="location-card reveal">
+          <div>
+            <p class="eyebrow">Como chegar</p>
+            <h2>Rota para a Tec Auto Center em Curitiba.</h2>
+            <p>Use o mapa para conferir a região da oficina e abrir a rota antes de sair.</p>
+          </div>
+          <div class="address-box">
+            <span>Endereço</span>
+            <strong>R. Chorão, 25 - Eucaliptos, Fazenda Rio Grande - PR, 83820-704</strong>
+          </div>
+          <a class="button secondary" href="https://maps.google.com/?cid=10054495569313208431&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener noreferrer" data-mcp-action="open-route" data-mcp-description="Abrir rota da oficina no Google Maps"><i class="ph ph-map-pin" aria-hidden="true"></i>Abrir rota no mapa</a>
+        </article>
+        <div class="map-frame reveal">
+          <iframe title="Mapa com endereço da Tec Auto Center em Curitiba" src="https://www.google.com/maps?q=R.%20Chor%C3%A3o%2C%2025%20-%20Eucaliptos%2C%20Fazenda%20Rio%20Grande%20-%20PR%2C%2083820-704%20Tec%20Auto%20Center&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="steps" id="como-funciona" style="order: 20">
+      <div class="wrap">
+        <div class="section-head center reveal">
+          <p class="eyebrow">Como funciona</p>
+          <h2>Veja, chame e agende.</h2>
+        </div>
+        <div class="step-grid">
+          <article class="step reveal"><div class="step-number">1</div><h3>Chame no WhatsApp</h3><p>Informe o carro, o ano e o que está acontecendo.</p></article>
+          <article class="step reveal"><div class="step-number">2</div><h3>Receba orientação</h3><p>A oficina entende o caso e indica o próximo passo com clareza.</p></article>
+          <article class="step reveal"><div class="step-number">3</div><h3>Agende o atendimento</h3><p>Sem formulário longo e sem perder tempo procurando informação básica.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq" style="order: 90">
+      <div class="wrap">
+        <div class="section-head center reveal">
+          <p class="eyebrow">Perguntas frequentes</p>
+          <h2>Dúvidas antes de chamar no WhatsApp.</h2>
+        </div>
+        <div class="faq-grid">
+          <details class="reveal"><summary>Como peço um orçamento?</summary><p>Chame a Tec Auto Center pelo WhatsApp, envie modelo, ano e descreva o problema.</p></details><details class="reveal"><summary>Quais carros atende?</summary><p>A página destaca Fiat, Volkswagen, Chevrolet, Ford, Renault. A oficina confirma seu modelo pelo WhatsApp.</p></details><details class="reveal"><summary>Onde fica?</summary><p>R. Chorão, 25 - Eucaliptos, Fazenda Rio Grande - PR, 83820-704</p></details><details class="reveal"><summary>Por que essa página ajuda?</summary><p>Ela organiza serviços, localização, marcas e contato para facilitar decisão e leitura por buscadores/IAs.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contact" style="order: 100">
+      <div class="wrap reveal">
+        <p class="eyebrow">Próximo passo</p>
+        <h2>Fale com a Tec Auto Center agora.</h2>
+        <p class="lead">Explique o que aconteceu, informe marca e modelo do carro e receba orientação pelo WhatsApp.</p>
+        <div class="actions" style="justify-content:center;"><a class="button primary" href="https://wa.me/554137972314?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Tec%20Auto%20Center%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noopener noreferrer" data-mcp-action="contact-whatsapp" data-mcp-description="Solicitar atendimento pelo WhatsApp"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i>Agendar pelo WhatsApp</a></div>
+        <p><a class="map-link" href="https://maps.google.com/?cid=10054495569313208431&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener noreferrer" data-mcp-action="open-route" data-mcp-description="Abrir rota da oficina no Google Maps"><i class="ph ph-map-pin" aria-hidden="true"></i>Ver localização no mapa</a></p>
+      </div>
+    </section>
+  </main>
+
+  <a class="floating-wa" href="https://wa.me/554137972314?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Tec%20Auto%20Center%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noopener noreferrer" data-mcp-action="contact-whatsapp" data-mcp-description="Botao fixo para falar no WhatsApp"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i>Agendar pelo WhatsApp</a>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <a class="footer-brand" href="#"><span class="brand-mark">T</span><span>Tec Auto Center</span></a>
+          <p>Tec Auto Center em Curitiba: atendimento para carros populares e multimarcas, com contato direto, localização clara e serviços fáceis de consultar.</p>
+          <a class="button" href="https://wa.me/554137972314?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Tec%20Auto%20Center%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noopener noreferrer" data-mcp-action="contact-whatsapp" data-mcp-description="Falar com a oficina pelo WhatsApp"><i class="ph ph-whatsapp-logo" aria-hidden="true"></i>Agendar pelo WhatsApp</a>
+        </div>
+        <div>
+          <h4>Serviços</h4>
+          <div class="footer-list">
+            <span>Diagnóstico automotivo</span>
+            <span>Freios e suspensão</span>
+            <span>Revisão preventiva</span>
+          </div>
+        </div>
+        <div>
+          <h4>Marcas</h4>
+          <div class="footer-list"><span>Fiat, Volkswagen, Chevrolet, Ford, Renault</span></div>
+        </div>
+        <div>
+          <h4>Contato</h4>
+          <div class="footer-list">
+            <span>WhatsApp +55 (41) 3797-2314</span>
+            <span>R. Chorão, 25 - Eucaliptos, Fazenda Rio Grande - PR, 83820-704</span>
+            <a href="https://maps.google.com/?cid=10054495569313208431&amp;g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener noreferrer">Ver no mapa</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>Prévia criada pela Agência Ampler.</span>
+        <span>Curitiba e RMC · Atendimento automotivo · WhatsApp</span>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduceMotion) {
+      document.querySelectorAll('.reveal').forEach((item) => item.classList.add('is-visible'));
+    } else {
+      const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+      }, { threshold: 0.12 });
+      document.querySelectorAll('.reveal').forEach((item) => observer.observe(item));
+    }
+  </script>
+</body>
+</html>
